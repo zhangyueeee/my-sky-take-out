@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.sky.test.SpringDataRedisTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.sky.test.SpringDataRedisTest
+testSet  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.sky.test.SpringDataRedisTest.testSet(SpringDataRedisTest.java:92)
+
+testHash  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.sky.test.SpringDataRedisTest.testHash(SpringDataRedisTest.java:49)
+
+testList  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.sky.test.SpringDataRedisTest.testList(SpringDataRedisTest.java:72)
+
+testZset  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.sky.test.SpringDataRedisTest.testZset(SpringDataRedisTest.java:118)
+
+testCommon  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.sky.test.SpringDataRedisTest.testCommon(SpringDataRedisTest.java:138)
+
+testRedisTemplate  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.sky.test.SpringDataRedisTest.testRedisTemplate(SpringDataRedisTest.java:22)
+
+testString  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.sky.test.SpringDataRedisTest.testString(SpringDataRedisTest.java:35)
+
